@@ -83,6 +83,11 @@ void insertAtIndex(int arr[], int index, int x)
         insertAtBeg(arr, x);
         return;
     }
+    else if (index == size - 1)
+    {
+        insertAtEnd(arr, x);
+        return;
+    }
 
     for (int i = size - 1; i >= index; i--)
     {
