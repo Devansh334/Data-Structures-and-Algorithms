@@ -11,7 +11,7 @@ void display(int arr[], int n)
 }
 void main()
 {
-    int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}; 
     int k;
     printf("Enter number of Rotations : ");
     scanf("%d", &k);
