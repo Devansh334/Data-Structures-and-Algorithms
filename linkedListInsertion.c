@@ -98,11 +98,6 @@ void InAtIndex(int data, int index)
     temp->next = ins;
 }
 
-void showAllRev()
-{
-    rev(start);
-}
-
 void rev(struct node *temp)
 {
     if (temp == NULL)
@@ -111,6 +106,11 @@ void rev(struct node *temp)
     }
     rev(temp->next);
     printf("%d\n", temp->data);
+}
+
+void showAllRev()
+{
+    rev(start);
 }
 
 void showAll()
