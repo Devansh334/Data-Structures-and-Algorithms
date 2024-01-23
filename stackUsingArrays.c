@@ -7,7 +7,6 @@
 #define CAPACITY 5
 
 int stack[CAPACITY];
-
 int top = -1;
 
 bool isEmpty()
