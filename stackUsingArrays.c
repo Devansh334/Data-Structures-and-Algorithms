@@ -43,7 +43,7 @@ int pop()
     if (isEmpty())
     {
         printf("Stack Underflow");
-        return -1;
+        exit(0);
     }
     return stack[top--];
 }
@@ -53,7 +53,7 @@ int peek()
     if (isEmpty())
     {
         printf("Empty Stack");
-        return -1;
+        exit(0);
     }
     return stack[top];
 }
