@@ -1,6 +1,7 @@
 // Rotation in Arrays---->
 
 #include <stdio.h>
+
 void display(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
@@ -9,6 +10,7 @@ void display(int arr[], int n)
     }
     printf("\n");
 }
+
 void main()
 {
     int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
