@@ -3,7 +3,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define CAPACITY 100
+
 int size = 6;
+
 void deleteAtIndex();
 void display();
 void deleteAtBeg();
