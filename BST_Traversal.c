@@ -56,6 +56,7 @@ void Postorder(struct node *temp)
     Postorder(temp->right);
     printf("%d ", temp->data);
 }
+
 void main()
 {
     root = insert(root, 10);
